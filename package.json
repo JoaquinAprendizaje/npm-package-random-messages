@@ -1,7 +1,7 @@
 {
   "name": "random-messages-by-joaquin-beltran",
   "version": "1.0.0",
-  "description": "Random de mensajes",
+  "description": "This package is intend to display a random name every time you use its command.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,7 +14,15 @@
   "author": "Joaquin Beltran <joaquinarturobeltranlopez@gmail.com>",
   "license": "MIT",
   "bin": {
-    "random-msg": "./bin/global.js"
+    "random-msg": "bin/global.js"
   },
-  "preferGlobal": true
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaquinAprendizaje/npm-package-random-messages.git"
+  },
+  "bugs": {
+    "url": "https://github.com/JoaquinAprendizaje/npm-package-random-messages/issues"
+  },
+  "homepage": "https://github.com/JoaquinAprendizaje/npm-package-random-messages#readme"
 }
